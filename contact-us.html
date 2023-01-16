@@ -110,45 +110,27 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown active">
+								<a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Startsite</a>
+								<i class="ddl-switch fa fa-angle-down"></i>
+							</li>
+											<!--<li><a href="about.html" title="About Us">Über Uns</a></li>
 							<li class="dropdown">
-								<a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Startseite</a>
+								<a href="services.html" class="dropdown-toggle" title="Services" role="button" aria-haspopup="true" aria-expanded="false">Umzugsservice</a>
 								<i class="ddl-switch fa fa-angle-down"></i>
 								<ul class="dropdown-menu">
-									<li><a href="index.html" title="Home 1">Home 1</a></li>
-									<li><a href="index2.html" title="Home 2">Home 2</a></li>
+									<li><a href="service-single.html" title="Gallery Single">Service Single</a></li>
 								</ul>
-							</li>
-							<li><a href="about.html" title="About Us">ÜBER UNS</a></li>
+							</li>-->
 							<li class="dropdown">
-								<a href="services.html" class="dropdown-toggle" title="Services" role="button" aria-haspopup="true" aria-expanded="false">UMZUGSSERVICE</a>
+								<a href="unsereservice.html" class="dropdown-toggle" title="Pages" role="button" aria-haspopup="true" aria-expanded="false">Unsere Service</a>
 								<i class="ddl-switch fa fa-angle-down"></i>
-								<ul class="dropdown-menu">
-									<li><a href="service-single.html" title="Gallery Single">UMZUGSANGEBOT</a></li>
-								</ul>
 							</li>
 							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" title="Pages" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UMZUGSANGEBOT</a>
+								<a href="umzugeanfrage.html" class="dropdown-toggle" title="Pages" role="button" aria-haspopup="true" aria-expanded="false">Umzuge Anfrage</a>
 								<i class="ddl-switch fa fa-angle-down"></i>
-								<ul class="dropdown-menu">
-									<li><a href="404.html" title="404">404</a></li>
-								</ul>
 							</li>
-							<li class="dropdown">
-								<a href="gallery.html" class="dropdown-toggle" title="Pages" role="button" aria-haspopup="true" aria-expanded="false">Preis</a>
-								<i class="ddl-switch fa fa-angle-down"></i>
-								<ul class="dropdown-menu">
-									<li><a href="gallery-single.html" title="Gallery Single">Gallery Single</a></li>
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#latest-blog" class="dropdown-toggle" title="Blog" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-								<i class="ddl-switch fa fa-angle-down"></i>
-								<ul class="dropdown-menu">
-									<li><a title="Blog" href="blog.html">Blog</a></li>
-									<li><a title="Blog Post" href="blog-post.html">Blog Post</a></li>
-								</ul>
-							</li>
-							<li class="active"><a href="contact-us.html" title="Contact Us">Kontakt</a></li>
+							<li><a href="contact-us.html" title="Contact Us">Kontakt</a></li>
 						</ul>
 					</div>
 					<div id="loginpanel" class="desktop-hide">
@@ -170,10 +152,13 @@
 
 				</div><!-- Container /- -->
 			</div><!-- Page Banner -->
-			
 			<!-- Contact Us -->
 			<div class="contact-us container-fluid no-left-padding no-right-padding">
 				<!-- Container -->
+				<div class="section-header">
+					<h5>SCHREIBEN SIE UNS!</h5>
+					<h3>Wir freuen uns über Ihre Nachricht,<span> schreiben Sie uns einfach an.</span></h3>
+				</div>
 				<div class="container">
 					<div class="contact-address-box">
 						<div class="col-md-4 col-sm-6 col-xs-6">
@@ -209,41 +194,16 @@
 			
 			<!-- Map Section -->
 			<div class="map container-fluid no-left-padding no-right-padding">
-				<div class="map-canvas" id="map-canvas-contact-1" data-lat="40.712784" data-lng="-74.005941" data-string="Turm Str. 5, Berlin 13235, Germany." data-zoom="10"></div>
 			</div><!--  Map Section /- -->
-			
+			<div class="google-map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2426.9604391760645!2d13.35120831535096!3d52.5341499429336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8519dbfc0a1fb%3A0x8bb68ad5decc4007!2sPerleberger%20Str.%2010%2C%2010559%20Berlin!5e0!3m2!1sen!2sde!4v1673637851419!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div class="contact-form container-fluid no-left-padding no-right-padding">
+			</div>
+
 				<!-- Container -->
 				<div class="container">
 					<!-- Section Header -->
-					<div class="section-header">
-						<h5>SCHREIBEN SIE UNS!</h5>
-						<h3>Wir freuen uns über Ihre Nachricht,<span> schreiben Sie uns einfach an.</span></h3>
-					</div><!-- Section Header /- -->
-					<form class="row">
-						<div class="col-md-6 col-sm-6 col-xs-12 form-group">
-							<input type="text" class="form-control" placeholder="Ihr Name" name="contact-name" id="input_name" required="" />
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12 form-group">
-							<input type="text" class="form-control" placeholder="Ihre Email" name="contact-email" id="input_email" required="" />
-						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 form-group">
-							<input type="text" class="form-control" placeholder="Telefon" name="contact-subject" id="input_subject" />
-						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 form-group">
-							<input type="text" class="form-control" placeholder="PLZ alte Wohnung" name="contact-subject" id="input_subject" />
-						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 form-group">
-							<input type="text" class="form-control" placeholder="PLZ neue Wohnung" name="contact-subject" id="input_subject" />
-						</div>
-						<div class="col-md-12 col-sm-12 col-xs-12 form-group">
-							<textarea class="form-control" placeholder="Nachricht" name="textarea-message" id="textarea_message"></textarea>
-						</div>
-						<div class="form-group col-md-12 col-sm-12 col-xs-12">
-							<button title="Submit Now" type="submit" id="btn_submit" name="post">Absenden</button>
-						</div>
-						<div id="alert-msg" class="alert-msg"></div>
-					</form>
+<!-- Section Header /- -->
 				</div><!-- Container /- -->
 			</div>
 		</main>
